@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC1800CB005C7473EC76053 /* Pods_Mamafua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959303E39A6199C8D619ED6 /* Pods_Mamafua.framework */; };
+		FA596369237C3A8F00418794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA596368237C3A8F00418794 /* AppDelegate.swift */; };
+		FA59636B237C3A8F00418794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59636A237C3A8F00418794 /* SceneDelegate.swift */; };
+		FA59636D237C3A8F00418794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59636C237C3A8F00418794 /* ViewController.swift */; };
+		FA596370237C3A8F00418794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA59636E237C3A8F00418794 /* Main.storyboard */; };
+		FA596372237C3A9300418794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA596371237C3A9300418794 /* Assets.xcassets */; };
+		FA596375237C3A9300418794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA596373237C3A9300418794 /* LaunchScreen.storyboard */; };
+		FA59637D237C3E8D00418794 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59637C237C3E8D00418794 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33D999813F2474484B2B2741 /* Pods-Mamafua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mamafua.debug.xcconfig"; path = "Target Support Files/Pods-Mamafua/Pods-Mamafua.debug.xcconfig"; sourceTree = "<group>"; };
+		4959303E39A6199C8D619ED6 /* Pods_Mamafua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mamafua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E979B0D5569E1F8794CF8C40 /* Pods-Mamafua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mamafua.release.xcconfig"; path = "Target Support Files/Pods-Mamafua/Pods-Mamafua.release.xcconfig"; sourceTree = "<group>"; };
+		FA596365237C3A8F00418794 /* Mamafua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mamafua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA596368237C3A8F00418794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA59636A237C3A8F00418794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA59636C237C3A8F00418794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA59636F237C3A8F00418794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA596371237C3A9300418794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA596374237C3A9300418794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA596376237C3A9300418794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA59637C237C3E8D00418794 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA596362237C3A8F00418794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC1800CB005C7473EC76053 /* Pods_Mamafua.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2FA7377EA8CF1BF31A6285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D999813F2474484B2B2741 /* Pods-Mamafua.debug.xcconfig */,
+				E979B0D5569E1F8794CF8C40 /* Pods-Mamafua.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E9A50CD47E1A2950DBBB242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4959303E39A6199C8D619ED6 /* Pods_Mamafua.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA59635C237C3A8F00418794 = {
+			isa = PBXGroup;
+			children = (
+				FA596367237C3A8F00418794 /* Mamafua */,
+				FA596366237C3A8F00418794 /* Products */,
+				5E2FA7377EA8CF1BF31A6285 /* Pods */,
+				8E9A50CD47E1A2950DBBB242 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA596366237C3A8F00418794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA596365237C3A8F00418794 /* Mamafua.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA596367237C3A8F00418794 /* Mamafua */ = {
+			isa = PBXGroup;
+			children = (
+				FA596368237C3A8F00418794 /* AppDelegate.swift */,
+				FA59636A237C3A8F00418794 /* SceneDelegate.swift */,
+				FA59636C237C3A8F00418794 /* ViewController.swift */,
+				FA59637C237C3E8D00418794 /* SignUpViewController.swift */,
+				FA59636E237C3A8F00418794 /* Main.storyboard */,
+				FA596371237C3A9300418794 /* Assets.xcassets */,
+				FA596373237C3A9300418794 /* LaunchScreen.storyboard */,
+				FA596376237C3A9300418794 /* Info.plist */,
+			);
+			path = Mamafua;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA596364237C3A8F00418794 /* Mamafua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA596379237C3A9300418794 /* Build configuration list for PBXNativeTarget "Mamafua" */;
+			buildPhases = (
+				C19609CAB96947F53A490759 /* [CP] Check Pods Manifest.lock */,
+				FA596361237C3A8F00418794 /* Sources */,
+				FA596362237C3A8F00418794 /* Frameworks */,
+				FA596363237C3A8F00418794 /* Resources */,
+				B4BF978D09580899A960EDF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mamafua;
+			productName = Mamafua;
+			productReference = FA596365237C3A8F00418794 /* Mamafua.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA59635D237C3A8F00418794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Arusey;
+				TargetAttributes = {
+					FA596364237C3A8F00418794 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = FA596360237C3A8F00418794 /* Build configuration list for PBXProject "Mamafua" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA59635C237C3A8F00418794;
+			productRefGroup = FA596366237C3A8F00418794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA596364237C3A8F00418794 /* Mamafua */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA596363237C3A8F00418794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA596375237C3A9300418794 /* LaunchScreen.storyboard in Resources */,
+				FA596372237C3A9300418794 /* Assets.xcassets in Resources */,
+				FA596370237C3A8F00418794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4BF978D09580899A960EDF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mamafua/Pods-Mamafua-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mamafua/Pods-Mamafua-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mamafua/Pods-Mamafua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19609CAB96947F53A490759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mamafua-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA596361237C3A8F00418794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA59636D237C3A8F00418794 /* ViewController.swift in Sources */,
+				FA596369237C3A8F00418794 /* AppDelegate.swift in Sources */,
+				FA59637D237C3E8D00418794 /* SignUpViewController.swift in Sources */,
+				FA59636B237C3A8F00418794 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA59636E237C3A8F00418794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA59636F237C3A8F00418794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA596373237C3A9300418794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA596374237C3A9300418794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA596377237C3A9300418794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA596378237C3A9300418794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA59637A237C3A9300418794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D999813F2474484B2B2741 /* Pods-Mamafua.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99FHHVY5LH;
+				INFOPLIST_FILE = Mamafua/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.Mamafua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA59637B237C3A9300418794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E979B0D5569E1F8794CF8C40 /* Pods-Mamafua.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99FHHVY5LH;
+				INFOPLIST_FILE = Mamafua/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.Mamafua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA596360237C3A8F00418794 /* Build configuration list for PBXProject "Mamafua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA596377237C3A9300418794 /* Debug */,
+				FA596378237C3A9300418794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA596379237C3A9300418794 /* Build configuration list for PBXNativeTarget "Mamafua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA59637A237C3A9300418794 /* Debug */,
+				FA59637B237C3A9300418794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA59635D237C3A8F00418794 /* Project object */;
+}
