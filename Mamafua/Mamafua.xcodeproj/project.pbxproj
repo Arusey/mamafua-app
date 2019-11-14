@@ -8,19 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		ABC1800CB005C7473EC76053 /* Pods_Mamafua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4959303E39A6199C8D619ED6 /* Pods_Mamafua.framework */; };
+		FA091FDD238583E600C2CCB5 /* myfile.json in Resources */ = {isa = PBXBuildFile; fileRef = FA091FDC238583E600C2CCB5 /* myfile.json */; };
+		FA091FDF2389247200C2CCB5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA091FDE2389247200C2CCB5 /* HomeViewController.swift */; };
+		FA091FE123894DF300C2CCB5 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA091FE023894DF300C2CCB5 /* Helpers.swift */; };
+		FA091FE323897A4700C2CCB5 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA091FE223897A4700C2CCB5 /* Spinner.swift */; };
 		FA596369237C3A8F00418794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA596368237C3A8F00418794 /* AppDelegate.swift */; };
 		FA59636B237C3A8F00418794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59636A237C3A8F00418794 /* SceneDelegate.swift */; };
 		FA59636D237C3A8F00418794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59636C237C3A8F00418794 /* ViewController.swift */; };
 		FA596370237C3A8F00418794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA59636E237C3A8F00418794 /* Main.storyboard */; };
 		FA596372237C3A9300418794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA596371237C3A9300418794 /* Assets.xcassets */; };
 		FA596375237C3A9300418794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA596373237C3A9300418794 /* LaunchScreen.storyboard */; };
-		FA59637D237C3E8D00418794 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59637C237C3E8D00418794 /* SignUpViewController.swift */; };
+		FA59637F237C4C7200418794 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59637E237C4C7200418794 /* SignUpViewController.swift */; };
+		FA596381237DA63F00418794 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA596380237DA63F00418794 /* APIRequests.swift */; };
+		FA596384237FEAAB00418794 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA596382237FDAD200418794 /* User.swift */; };
+		FA7F3A8B238151D600C9C674 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F3A8A238151D600C9C674 /* LoginViewController.swift */; };
+		FADFB640238AA7E80035648C /* UITextField+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFB63F238AA7E80035648C /* UITextField+Validations.swift */; };
+		FADFB643238AA8DD0035648C /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFB642238AA8DD0035648C /* Validators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33D999813F2474484B2B2741 /* Pods-Mamafua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mamafua.debug.xcconfig"; path = "Target Support Files/Pods-Mamafua/Pods-Mamafua.debug.xcconfig"; sourceTree = "<group>"; };
 		4959303E39A6199C8D619ED6 /* Pods_Mamafua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mamafua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E979B0D5569E1F8794CF8C40 /* Pods-Mamafua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mamafua.release.xcconfig"; path = "Target Support Files/Pods-Mamafua/Pods-Mamafua.release.xcconfig"; sourceTree = "<group>"; };
+		FA091FDC238583E600C2CCB5 /* myfile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = myfile.json; sourceTree = "<group>"; };
+		FA091FDE2389247200C2CCB5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA091FE023894DF300C2CCB5 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		FA091FE223897A4700C2CCB5 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		FA596365237C3A8F00418794 /* Mamafua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mamafua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA596368237C3A8F00418794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA59636A237C3A8F00418794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +42,12 @@
 		FA596371237C3A9300418794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA596374237C3A9300418794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA596376237C3A9300418794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA59637C237C3E8D00418794 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA59637E237C4C7200418794 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA596380237DA63F00418794 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		FA596382237FDAD200418794 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA7F3A8A238151D600C9C674 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FADFB63F238AA7E80035648C /* UITextField+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Validations.swift"; sourceTree = "<group>"; };
+		FADFB642238AA8DD0035648C /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,16 +100,49 @@
 		FA596367237C3A8F00418794 /* Mamafua */ = {
 			isa = PBXGroup;
 			children = (
+				FADFB644238AA9AD0035648C /* Helpers */,
+				FADFB641238AA8C60035648C /* Validations */,
+				FADFB63E238AA7D90035648C /* Extensions */,
 				FA596368237C3A8F00418794 /* AppDelegate.swift */,
 				FA59636A237C3A8F00418794 /* SceneDelegate.swift */,
 				FA59636C237C3A8F00418794 /* ViewController.swift */,
-				FA59637C237C3E8D00418794 /* SignUpViewController.swift */,
+				FA596380237DA63F00418794 /* APIRequests.swift */,
+				FA59637E237C4C7200418794 /* SignUpViewController.swift */,
+				FA7F3A8A238151D600C9C674 /* LoginViewController.swift */,
+				FA091FDE2389247200C2CCB5 /* HomeViewController.swift */,
+				FA596382237FDAD200418794 /* User.swift */,
+				FA091FE223897A4700C2CCB5 /* Spinner.swift */,
+				FA091FDC238583E600C2CCB5 /* myfile.json */,
 				FA59636E237C3A8F00418794 /* Main.storyboard */,
 				FA596371237C3A9300418794 /* Assets.xcassets */,
 				FA596373237C3A9300418794 /* LaunchScreen.storyboard */,
 				FA596376237C3A9300418794 /* Info.plist */,
 			);
 			path = Mamafua;
+			sourceTree = "<group>";
+		};
+		FADFB63E238AA7D90035648C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FADFB63F238AA7E80035648C /* UITextField+Validations.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FADFB641238AA8C60035648C /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				FADFB642238AA8DD0035648C /* Validators.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		FADFB644238AA9AD0035648C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA091FE023894DF300C2CCB5 /* Helpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA596375237C3A9300418794 /* LaunchScreen.storyboard in Resources */,
+				FA091FDD238583E600C2CCB5 /* myfile.json in Resources */,
 				FA596372237C3A9300418794 /* Assets.xcassets in Resources */,
 				FA596370237C3A8F00418794 /* Main.storyboard in Resources */,
 			);
@@ -209,10 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7F3A8B238151D600C9C674 /* LoginViewController.swift in Sources */,
 				FA59636D237C3A8F00418794 /* ViewController.swift in Sources */,
 				FA596369237C3A8F00418794 /* AppDelegate.swift in Sources */,
-				FA59637D237C3E8D00418794 /* SignUpViewController.swift in Sources */,
+				FADFB640238AA7E80035648C /* UITextField+Validations.swift in Sources */,
+				FA091FDF2389247200C2CCB5 /* HomeViewController.swift in Sources */,
+				FA091FE123894DF300C2CCB5 /* Helpers.swift in Sources */,
+				FA596384237FEAAB00418794 /* User.swift in Sources */,
+				FA596381237DA63F00418794 /* APIRequests.swift in Sources */,
+				FADFB643238AA8DD0035648C /* Validators.swift in Sources */,
+				FA59637F237C4C7200418794 /* SignUpViewController.swift in Sources */,
 				FA59636B237C3A8F00418794 /* SceneDelegate.swift in Sources */,
+				FA091FE323897A4700C2CCB5 /* Spinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

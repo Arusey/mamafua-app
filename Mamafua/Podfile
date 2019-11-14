@@ -8,5 +8,6 @@ target 'Mamafua' do
   # Pods for Mamafua
   pod "Alamofire"
   pod "IQKeyboardManagerSwift"
+  pod "TinyConstraints"
 
 end

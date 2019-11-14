@@ -1,0 +1,25 @@
+//
+//  myfile.json
+//  Mamafua
+//
+//  Created by macbook on 20/11/2019.
+//  Copyright © 2019 Arusey. All rights reserved.
+//
+
+import Foundation
+
+users = [
+    {
+        "first_name": "kevin",
+        "last_name": "kibet",
+        "email": "test@email.com",
+        "password": "Lagat@grub69"
+    },
+    {
+        "first_name": "paris",
+        "last_name": "empress",
+        "email": "paris@email.com",
+        "password": "Lagat@grub69"
+    }
+]
+
